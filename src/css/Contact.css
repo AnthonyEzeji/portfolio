@@ -1,0 +1,40 @@
+.contact{
+    width: 100vw;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top: -650px;
+    z-index: 3;
+    background-color: white;
+  color:black;
+    transition: all .5s;
+    position: fixed;
+}
+.contact:hover{
+    top: 0px;
+    background-color: white;
+    
+  
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    background-color: black;
+    padding:5px;
+    color: white;
+ 
+}
+.form-field{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
