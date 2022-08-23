@@ -44,16 +44,57 @@ function Home() {
             </div>
            
           </div>
-         
+         <div className="info">
+          <p className ="info-text">I am an enthusiastic computer science graduate who is passionate about creating software.</p>
+         </div>
 
 
           <div div id = 'projects'></div>
           <div className= 'projects'>
+          
+          
+           <div style={{width:'100vw',backgroundColor:'rgb(228, 253, 0)', display:'flex',flexDirection:'column',alignItems:'center', justifyContent:'center', borderTop:'1px solid black',borderBottom:'1px solid black'}}>
            <h4>Ecommerce Website</h4>
-           <a style={{margin:20,width:100,backgroundColor:'black', textDecoration:'none', color:"white" , padding:5}} href="http://www.mocksocial.online"   >Live Site</a>
-           
-<h4 >Mock Social</h4>
-<a style={{margin:20,width:100,backgroundColor:'black', textDecoration:'none', color:"white" , padding:5}} href="http://www.mocksocial.online"   >Live Site</a>
+           <p style={{width:'500px',fontWeight:'800', fontFamily:'Roboto',backgroundColor:'rgb(228, 253, 0)', color:'black'}}>
+            This is a fully functional ecommerce website with cart, login, and checkout functionality with realtime inventory check. I leveraged the redux toolkit to handle cross-app state, which is especially important for cart functionality. Payments are accepted through the use of Stripe's Prebuilt Checkout, with user info already prefilled. Customers can check placed orders on their account page, aswell as other account information. Order details are collected after every completed checkout through integrating a Stripe webhook to capture events. Orders, products, users and other entities are stored in a MongoDB database connected to the server.
+           </p>
+           <ul style ={{display:'flex', width:'80vw',  justifyContent:'space-evenly'}}>
+            <li>React</li>
+            <li>MongoDB</li>
+            <li>Express</li>
+            <li>Node</li>
+            <li>Stripe</li>
+            <li>AWS</li>
+           </ul>
+           </div>
+          <div style={{marginTop:20}}>
+          <a style={{margin:20,width:100,backgroundColor:'black', textDecoration:'none', color:"white" , padding:5}} href="http://3.87.187.44:3000"   >Live Site</a>
+           <a style={{margin:20,width:100,backgroundColor:'black', textDecoration:'none', color:"white" , padding:5}} href="https://github.com/AnthonyEzeji/ecom"   >GitHub</a>
+          </div>
+          
+           <img style={{width:'80%', margin:30, border:"20px solid black"}} src="econ image 1.png" alt="" />
+           <img style={{width:'80%',margin:30, border:"20px solid black"}} src="econ image 2.png" alt="" />
+           <img style={{width:'80%', margin:30, border:"20px solid black"}} src="econ image 3.png" alt="" />
+
+<div style={{width:'100vw',backgroundColor:'rgb(228, 253, 0)', display:'flex',flexDirection:'column',alignItems:'center', justifyContent:'center', borderTop:'1px solid black',borderBottom:'1px solid black'}}>
+           <h4>Social Media Website</h4>
+           <p style={{width:'500px',fontWeight:'800', fontFamily:'Roboto',backgroundColor:'rgb(228, 253, 0)', color:'black'}}>
+            This is a fully functional ecommerce website with cart, login, and checkout functionality with realtime inventory check. I leveraged the redux toolkit to handle cross-app state, which is especially important for cart functionality. Payments are accepted through the use of Stripe's Prebuilt Checkout, with user info already prefilled. Customers can check placed orders on their account page, aswell as other account information. Order details are collected after every completed checkout through integrating a Stripe webhook to capture events. Orders, products, users and other entities are stored in a MongoDB database connected to the server.
+           </p>
+           <ul style ={{display:'flex', width:'80vw',  justifyContent:'space-evenly'}}>
+            <li>React</li>
+            <li>MongoDB</li>
+            <li>Express</li>
+            <li>Node</li>
+         
+            <li>AWS</li>
+           </ul>
+           </div>
+           <div style={{marginTop:20, marginBottom:20,}}>
+          <a style={{margin:20,width:100,backgroundColor:'black', textDecoration:'none', color:"white" , padding:5}} href="http://www.mocksocial.online"   >Live Site</a>
+           <a style={{margin:20,width:100,backgroundColor:'black', textDecoration:'none', color:"white" , padding:5}} href="https://github.com/AnthonyEzeji/Mock-Social-Website.git"   >GitHub</a>
+          </div>
+
     <img style={{width:'80%'}} src="mocksocial-project-thumbnail.png" alt="" />
 
            </div>

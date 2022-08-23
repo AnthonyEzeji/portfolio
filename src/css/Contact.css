@@ -9,10 +9,11 @@
     position:absolute;
     top: -650px;
     z-index: 3;
-    background-color: white;
+    background-color: rgb(228, 253, 0);
   color:black;
     transition: all .5s;
     position: fixed;
+    border-bottom: 1px solid black;
 }
 .contact:hover{
     top: 0px;
