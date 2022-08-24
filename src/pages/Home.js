@@ -79,14 +79,14 @@ function Home() {
 <div style={{width:'100vw',backgroundColor:'rgb(228, 253, 0)', display:'flex',flexDirection:'column',alignItems:'center', justifyContent:'center', borderTop:'1px solid black',borderBottom:'1px solid black'}}>
            <h4>Social Media Website</h4>
            <p style={{width:'500px',fontWeight:'800', fontFamily:'Roboto',backgroundColor:'rgb(228, 253, 0)', color:'black'}}>
-            This is a fully functional ecommerce website with cart, login, and checkout functionality with realtime inventory check. I leveraged the redux toolkit to handle cross-app state, which is especially important for cart functionality. Payments are accepted through the use of Stripe's Prebuilt Checkout, with user info already prefilled. Customers can check placed orders on their account page, aswell as other account information. Order details are collected after every completed checkout through integrating a Stripe webhook to capture events. Orders, products, users and other entities are stored in a MongoDB database connected to the server.
+          This is a mock social media website with functionality similar to Facebook and Twitter. Features include adding other users to your friends list, viewing a friends profile, direct messaging a friend, deleting friends, and viewing posts you and friends created. Additional functionality includes liking posts, uploading a avatar picture and updating your personal bio. 
            </p>
            <ul style ={{display:'flex', width:'80vw',  justifyContent:'space-evenly'}}>
             <li>React</li>
             <li>MongoDB</li>
             <li>Express</li>
             <li>Node</li>
-         
+            <li>Firebase</li>
             <li>AWS</li>
            </ul>
            </div>
