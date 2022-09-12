@@ -51,6 +51,30 @@ function Home() {
 
           <div div id = 'projects'></div>
           <div className= 'projects'>
+
+          <div style={{width:'100vw',backgroundColor:'rgb(228, 253, 0)', display:'flex',flexDirection:'column',alignItems:'center', justifyContent:'center', borderTop:'1px solid black',borderBottom:'1px solid black'}}>
+           <h4>Job Board For Developers</h4>
+           <p style={{width:'500px',fontWeight:'800', fontFamily:'Roboto',backgroundColor:'rgb(228, 253, 0)', color:'black'}}>
+          This is a job finding tool that allows developers to find relevant developer jobs. Users can filter jobs to best fit their needs and can save them to continue later. Each job listing has a description and links directly to its corresponding application website i.e. Glassdoor. The motivation behind this project was to solve the problem of finding relevant developer jobs in one central place. As a fellow developer in the job market, this project was a no-brainer. 
+           </p>
+           <ul style ={{display:'flex', width:'80vw',  justifyContent:'space-evenly'}}>
+            <li>React</li>
+            <li>MongoDB</li>
+            <li>Express</li>
+            <li>Node</li>
+            <li>Web Scraping</li>
+       
+           </ul>
+           </div>
+          <div style={{marginTop:20}}>
+          <a style={{margin:20,width:100,backgroundColor:'black', textDecoration:'none', color:"white" , padding:5}} href="https://job-board-nodejs.vercel.app/"   >Live Site</a>
+           <a style={{margin:20,width:100,backgroundColor:'black', textDecoration:'none', color:"white" , padding:5}} href="https://github.com/AnthonyEzeji/job-board-nodejs"   >GitHub</a>
+          </div>
+          
+           <img style={{width:'80%', margin:30, border:"20px solid black"}} src="job-board pic 1 .png" alt="" />
+           <img style={{width:'80%',margin:30, border:"20px solid black"}} src="job-board pic 2.png" alt="" />
+           <img style={{width:'80%', margin:30, border:"20px solid black"}} src="job-board pic 3.png" alt="" />
+
           
           
            <div style={{width:'100vw',backgroundColor:'rgb(228, 253, 0)', display:'flex',flexDirection:'column',alignItems:'center', justifyContent:'center', borderTop:'1px solid black',borderBottom:'1px solid black'}}>
