@@ -9,7 +9,7 @@ import '../css/Home.css'
 function Home() {
   return (
     <div className = 'home'>
-        <Contact></Contact>
+        
        
           <div  className="landing-container">
           <h1>ANTHONY EZEJI</h1>
