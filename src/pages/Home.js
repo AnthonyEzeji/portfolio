@@ -139,7 +139,7 @@ function Home() {
            </p>
            <p style ={{marginTop:10,marginBottom:10}}>TECH USED: <span style = {{backgroundColor:'rgb(151, 64, 64)'}}>ReactJS, NodeJS, ExpressJS, MongoDB, Vercel</span></p>
           </div>
-           <img className ='project-image'  src="job-board pic 1 .png" alt="" />
+           <img className ='project-image'  src="job-board pic 4.png" alt="" />
            </div>
     
           
