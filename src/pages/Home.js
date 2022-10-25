@@ -165,7 +165,7 @@ function Home() {
              
            
             <p>
-             Full stack ecommerce storefront with Stripe integration. Similar to any other ecommerce storefront, E-Shop allows users to create an account, browse products, filter products by brand,  add/remove products to/from cart, and purchase cart items through a unique Stripe generated checkout session. Further implementation includes Stripe webhook integration allowing customers to view orders after they are placed.
+             Full stack ecommerce storefront with Stripe integration. Similar to any other ecommerce storefront, E-Shop allows users to create an account, browse products, filter products by brand,  add/remove products to/from cart, and purchase cart items through a unique Stripe generated checkout session. App wide state management, such as cart information, is handled with Redux. Further implementation includes Stripe webhook integration allowing customers to view orders after they are placed.
              Products, users, and orders persist on a MongoDB database allowing for real time inventory check as well as admin functionality, such as managing orders or updating inventory.
             </p>
             <p style ={{marginTop:10,marginBottom:10}}>TECH USED: <span style = {{backgroundColor:'rgb(151, 64, 64)'}}>ReactJS, NodeJS, ExpressJS, MongoDB, AWS, Stripe</span></p>
