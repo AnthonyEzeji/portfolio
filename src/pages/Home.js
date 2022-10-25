@@ -128,7 +128,7 @@ function Home() {
           <h3 style ={{margin:0}}>Devly: Developer Jobs Finder Tool</h3>
           <div className="btn-container">
           <a className = 'project-btn' href="https://job-board-nodejs.vercel.app/all/all/all/all">Live App</a>
-          <a className = 'project-btn' href="">View Code</a>
+          <a className = 'project-btn' href="https://github.com/AnthonyEzeji/job-board-nodejs">View Code</a>
           </div>
           
           </div>
