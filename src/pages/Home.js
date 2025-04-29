@@ -19,7 +19,7 @@ function Home() {
          
      
         <h1>Hello, I'm <span style={{color:'rgb(151, 64, 64)'}}>Anthony</span>.</h1>
-        <h1>I'm a full stack web developer.</h1>
+        <h1>I'm a full stack software engineer.</h1>
         <HashLink smooth to='#body'  id ='landing-container-btn'>View My Work <ArrowDownwardIcon/></HashLink>
           </div>  
 
@@ -33,10 +33,10 @@ function Home() {
        
     <div className="about-me-info-container">
     <FaceIcon style ={{fontSize:100, color:'rgb(151, 64, 64)'}}/>
-    <div className="about-me-paragraph">
+    <div  className="about-me-paragraph">
      
          
-     Fully committed to the philosophy of life-long learning, I’m a full stack developer with a deep passion for JavaScript, React and all things web development. The unique combination of creativity, logic, technology and never running out of new things to discover, drives my excitement and passion for web development. When I’m not at my computer I like to spend my time reading, keeping fit and playing guitar.
+    As a seasoned Full Stack Engineer, I thrive in building scalable, efficient, and user-friendly applications that bridge the gap between frontend precision and backend robustness. My expertise in JavaScript, React, and modern web technologies allows me to craft intuitive digital experiences while ensuring seamless functionality behind the scenes. I’m passionate about solving complex problems, optimizing performance, and continuously refining my skills in an ever-evolving tech landscape. Outside of coding, I enjoy expanding my knowledge through reading, staying active, and diving into creative pursuits like playing guitar.
                </div>
     </div>
          
@@ -51,8 +51,8 @@ function Home() {
                 </Grid>
                 <Grid item xs={4} md={2} lg={2} >
                   <div className="grid-option">
-                  <img className = 'image' src="https://www.kindpng.com/picc/m/23-237467_transparent-css3-logo-png-html5-css3-png-download.png" alt="" />
-                  <p>CSS</p>
+                  <img className = 'image' src="https://tse3.mm.bing.net/th/id/OIP.jrcuppJ7JfrVrpa9iKnnnAHaHa?rs=1&pid=ImgDetMain" alt="" />
+                  <p>Python</p>
                   </div>
                
                 </Grid>
@@ -92,11 +92,41 @@ function Home() {
                 </Grid>
                 <Grid item xs={4} md={2} lg={2} >
                   <div className="grid-option">
-                  <img className = 'image' src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/r4wsu8rl4jvpjydbhooy" alt="" />
+                  <img className = 'image' src="data:image/jpeg;base64,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" alt="" />
                   <p>AWS</p>
                   </div>
                
                 </Grid>
+                <Grid item xs={4} md={2} lg={2} >
+                  <div className="grid-option">
+                  <img className = 'image' src="https://www.pngrepo.com/png/374146/512/typescript-official.png" alt="" />
+                  <p>TypeScript</p>
+                  </div>
+               
+                </Grid>
+                <Grid item xs={4} md={2} lg={2} >
+                  <div className="grid-option">
+                  <img className = 'image' src="https://images.ctfassets.net/23aumh6u8s0i/6pjUKboBuFLvCKkE3esaFA/5f2101d6d2add5c615db5e98a553fc44/nextjs.jpeg" alt="" />
+                  <p>NextJS</p>
+                  </div>
+               
+                </Grid>
+               
+                <Grid item xs={4} md={2} lg={2} >
+                  <div className="grid-option">
+                  <img className = 'image' src="https://tse2.mm.bing.net/th/id/OIP.CG8qTeTuoei796LdScT2bwHaIP?rs=1&pid=ImgDetMain" alt="" />
+                  <p>PostgreSQL</p>
+                  </div>
+               
+                </Grid>
+                <Grid item xs={4} md={2} lg={2} >
+                  <div className="grid-option">
+                  <img className = 'image' src="https://tse1.mm.bing.net/th/id/OIP.oI6Qr02y3i_pu-XQ8wQQoAHaEK?rs=1&pid=ImgDetMain" alt="" />
+                  <p>Azure</p>
+                  </div>
+               
+                </Grid>
+               
                 
             
            
@@ -125,22 +155,43 @@ function Home() {
         
          <div className= 'project-info' >
           <div className="project-header-container">
-          <h3 style ={{margin:0}}>Devly: Developer Jobs Finder Tool</h3>
+          <h3 style ={{margin:0}}>Notify: Note taking app</h3>
           <div className="btn-container">
-          <a className = 'project-btn' href="https://job-board-nodejs.vercel.app/all/all/all/all">Live App</a>
-          <a className = 'project-btn' href="https://github.com/AnthonyEzeji/job-board-nodejs">View Code</a>
+
+          <a className = 'project-btn' href="https://note-app-next-beta.vercel.app/">Live App</a>
           </div>
           
           </div>
             
           
            <p>
-            Full stack job finder tool for developers. Implements full CRUD functionality, such as creating an account, saving job listings, and deleting saved job listings. Listings are sourced through webscraping job boards with CheerioJS, a webscraping Javascript library. 
+            Full stack note taking app. 
            </p>
-           <p style ={{marginTop:10,marginBottom:10}}>TECH USED: <span style = {{backgroundColor:'rgb(151, 64, 64)'}}>ReactJS, NodeJS, ExpressJS, MongoDB, Vercel</span></p>
+           <p style ={{marginTop:10,marginBottom:10}}>TECH USED: <span style = {{backgroundColor:'rgb(151, 64, 64)'}}>NextJS, MongoDB, Vercel</span></p>
           </div>
-           <img className ='project-image'  src="job-board pic 4.png" alt="" />
+           <img className ='project-image'  src="notify app pic.jpeg" alt="" />
            </div>
+           <div className ='project' id = "project-1">
+          
+        
+          <div className= 'project-info' >
+           <div className="project-header-container">
+           <h3 style ={{margin:0}}>Devly: Developer Jobs Finder Tool</h3>
+           <div className="btn-container">
+ 
+           <a className = 'project-btn' href="https://github.com/AnthonyEzeji/job-board-nodejs">View Code</a>
+           </div>
+           
+           </div>
+             
+           
+            <p>
+             Full stack job finder tool for developers. Implements full CRUD functionality, such as creating an account, saving job listings, and deleting saved job listings. Listings are sourced through webscraping job boards with CheerioJS, a webscraping Javascript library. 
+            </p>
+            <p style ={{marginTop:10,marginBottom:10}}>TECH USED: <span style = {{backgroundColor:'rgb(151, 64, 64)'}}>ReactJS, NodeJS, ExpressJS, MongoDB, Vercel</span></p>
+           </div>
+            <img className ='project-image'  src="job-board pic 4.png" alt="" />
+            </div>
     
           
            
@@ -157,7 +208,7 @@ function Home() {
            <div className="project-header-container">
            <h3 style ={{margin:0}}>E-Shop: Ecommerce Storefront for Electronics</h3>
            <div className="btn-container">
-           <a className = 'project-btn' href="http://3.87.187.44:3000/">Live App</a>
+          
            <a className = 'project-btn' href="https://github.com/AnthonyEzeji/ecom">View Code</a>
            </div>
            
