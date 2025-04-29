@@ -167,7 +167,7 @@ function Home() {
            <p>
             Full stack note taking app. 
            </p>
-           <p style ={{marginTop:10,marginBottom:10}}>TECH USED: <span style = {{backgroundColor:'rgb(151, 64, 64)'}}>NextJS, MongoDB, Vercel</span></p>
+           <p style ={{marginTop:10,marginBottom:10}}>TECH USED: <span style = {{backgroundColor:'rgb(151, 64, 64)'}}>TypeScript, NextJS, Tailwind CSS, MongoDB, Vercel</span></p>
           </div>
            <img className ='project-image'  src="notify app pic.jpeg" alt="" />
            </div>
