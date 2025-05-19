@@ -148,8 +148,48 @@ function Home() {
          
 
           <div className= 'projects'>
-
-         
+          <div className ='project' id = "project-1">
+          
+        
+          <div className= 'project-info' >
+           <div className="project-header-container">
+           <h3 style ={{margin:0}}>TextGenuis</h3>
+           <div className="btn-container">
+ 
+           <a className = 'project-btn' href="https://resilient-rolypoly-b0d380.netlify.app/">Live App</a>
+           </div>
+           
+           </div>
+             
+           
+            <p>
+             Application to humanize AI responses
+            </p>
+            <p style ={{marginTop:10,marginBottom:10}}>TECH USED: <span style = {{backgroundColor:'rgb(151, 64, 64)'}}>TypeScript, NextJS, Tailwind CSS, Supabase, Netlify</span></p>
+           </div>
+            <img className ='project-image'  src="humanizer photo.png" alt="" />
+            </div>
+          <div className ='project' id = "project-1">
+          
+        
+          <div className= 'project-info' >
+           <div className="project-header-container">
+           <h3 style ={{margin:0}}>Booker</h3>
+           <div className="btn-container">
+ 
+           <a className = 'project-btn' href="https://stepful-takehome-frontend.vercel.app/">Live App</a>
+           </div>
+           
+           </div>
+             
+           
+            <p>
+             Application for scheduling sessions between coaches and students. 
+            </p>
+            <p style ={{marginTop:10,marginBottom:10}}>TECH USED: <span style = {{backgroundColor:'rgb(151, 64, 64)'}}>TypeScript, NextJS, ExpressJS, Tailwind CSS, MongoDB, Vercel</span></p>
+           </div>
+            <img className ='project-image'  src="booker photo.png" alt="" />
+            </div>
          <div className ='project' id = "project-1">
           
         
