@@ -153,7 +153,7 @@ function Home() {
         
           <div className= 'project-info' >
            <div className="project-header-container">
-           <h3 style ={{margin:0}}>TextGenuis</h3>
+           <h3 style ={{margin:0}}>TextGenius</h3>
            <div className="btn-container">
  
            <a className = 'project-btn' href="https://resilient-rolypoly-b0d380.netlify.app/">Live App</a>
