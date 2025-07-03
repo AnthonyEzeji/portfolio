@@ -31,6 +31,9 @@ function Navbar() {
         <div className="nav-option" >
             <HashLink className = 'hash-link' style={{ textDecoration:'none'}} smooth to= '#projects'>#Projects</HashLink>
         </div>
+        <div className="nav-option" >
+            <HashLink className = 'hash-link' style={{ textDecoration:'none'}} smooth to= '#contact'>#Contact</HashLink>
+        </div>
        
     </div>
   )

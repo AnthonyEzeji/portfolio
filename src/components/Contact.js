@@ -1,37 +1,56 @@
-import React from 'react'
-import '../css/Contact.css'
-import {Button, Input, TextareaAutosize} from '@mui/material'
-import {HashLink} from 'react-router-hash-link'
-import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import React from 'react';
+import '../css/Contact.css';
+
 function Contact() {
   return (
-    <div className = 'contact'>
-      <p>Shoot me a message!  All messages sent to my E-mail!</p>
-    <div className="contact-form">
-    <div className="form-field">
-        <h5>Name {'('+'Optional'+')'}</h5>
-      <Input  style={{borderBottomRightRadius:20,width:'300px', backgroundColor:'black', color:'white', padding:5}} disableUnderline={true}> </Input>
+    <div className="contact-container">
+      <div className="contact-card">
+        <div className="contact-header">
+          <h2>Let's Connect</h2>
+          <p>Ready to bring your ideas to life? Let's discuss your next project.</p>
+        </div>
+        
+        <div className="contact-content">
+          <div className="contact-info">
+            <div className="contact-item">
+              <div className="contact-icon">📧</div>
+              <div className="contact-details">
+                <h3>Email</h3>
+                <a href="mailto:aezeji00@gmail.com">aezeji00@gmail.com</a>
+              </div>
+            </div>
+            
+            <div className="contact-item">
+              <div className="contact-icon">💼</div>
+              <div className="contact-details">
+                <h3>LinkedIn</h3>
+                <a href="https://www.linkedin.com/in/anthonyezeji/" target="_blank" rel="noopener noreferrer">
+                  linkedin.com/in/anthonyezeji
+                </a>
+              </div>
+            </div>
+            
+            <div className="contact-item">
+              <div className="contact-icon">🐙</div>
+              <div className="contact-details">
+                <h3>GitHub</h3>
+                <a href="https://github.com/AnthonyEzeji" target="_blank" rel="noopener noreferrer">
+                  github.com/AnthonyEzeji
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <div className="contact-cta">
+            <p>I'm always open to discussing new opportunities and exciting projects.</p>
+            <a href="mailto:aezeji00@gmail.com" className="cta-button">
+              Send Message
+            </a>
+          </div>
+        </div>
       </div>
-      <div className="form-field">
-        <h5>E-mail</h5>
-      <Input style={{ borderBottomRightRadius:20,width:'300px', backgroundColor:'black', color:'white', padding:5}} disableUnderline={true}> </Input>
-      </div>
-      
-      <div className="form-field">
-        <h5>Message</h5>
-        <div><h5 className="">To:</h5><p className="">aezeji00@gmail.com</p></div>
-      <TextareaAutosize style={{fontSize:'14px',minHeight:200,maxHeight:200,maxWidth:'298px', minWidth:'298px', backgroundColor:'black', color:'white', padding:5, borderBottomRightRadius:20}}> </TextareaAutosize>
-      </div>
-    
-
     </div>
-<div style={{display:'flex',flexDirection:'column',alignItems:'center',margin:30}}>
-Contact
-<ArrowDropDownIcon></ArrowDropDownIcon>
-</div>
-
-    </div>
-  )
+  );
 }
 
-export default Contact
+export default Contact;
